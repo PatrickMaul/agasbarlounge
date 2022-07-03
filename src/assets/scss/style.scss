@@ -1,0 +1,11 @@
+// Bootstrap variable override
+@import './_variables.scss';
+// Bootstrap
+@import 'bootstrap';
+@import 'bootstrap/dist/css/bootstrap.min.css';
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.app{
+  font-family: 'Roboto', sans-serif;
+}
