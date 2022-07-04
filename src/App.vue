@@ -1,5 +1,6 @@
 <template lang="pug">
 .app
+  AppBar
   header
     router-link(to="/") Home
     router-link(to="/menu") Speisen und Getränke
@@ -11,7 +12,12 @@
 </template>
 
 <script>
+import AppBar from "@/components/core/AppBar.vue";
+
 export default {
   name: "App",
+  components: {
+    AppBar,
+  },
 };
 </script>
