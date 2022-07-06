@@ -1,0 +1,33 @@
+@mixin typo_base {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-decoration: none;
+}
+
+.app{
+  @include typo_base()
+}
+
+.title {
+  font-size: 28px;
+  margin: 0.5em 0 0.3em 0;
+  letter-spacing: 0.3pt;
+}
+
+.subtitle {
+  font-size: 24px;
+  margin: 0.5em 0 0.3em 0;
+  letter-spacing: 0.2pt;
+}
+
+.body {
+  font-size: 18px;
+  letter-spacing: 0.1pt;
+  line-height: 24px;
+}
+
+.underlined {
+  text-decoration: underline;
+}
