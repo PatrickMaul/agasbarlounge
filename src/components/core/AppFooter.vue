@@ -6,11 +6,11 @@ footer.border-top.bg-light
         img(src="../../assets/logos/logo_dark.svg", alt="Logo")
 
     .opening-hours
-      h3.subtitle.underlined Öffnungszeiten
-      p.body Montag und Dienstag: Ruhetag<br />Mittwoch bis Sonntag: 16 bis 22 Uhr<br />Küche von 17.30 bis 21.30 Uhr
+      h3.subtitle.underlined(v-html="$t('footer.openingHoursTitle')")
+      p.body(v-html="$t('footer.openingHoursText')")
     .address
-      h3.subtitle.underlined Adresse
-      p.body Montag und Dienstag: Ruhetag<br />Mittwoch bis Sonntag: 16 bis 22 Uhr<br />Küche von 17.30 bis 21.30 Uhr
+      h3.subtitle.underlined(v-html="$t('footer.addressTitle')")
+      p.body(v-html="$t('footer.addressText')")
     .google-map
       iframe(
         width="600",
