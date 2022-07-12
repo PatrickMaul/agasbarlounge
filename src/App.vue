@@ -1,11 +1,11 @@
 <template lang="pug">
 .app
-  AppBar
+  AppBar(v-if="$route.name != 'Error'")
 
   main
     router-view
 
-  AppFooter
+  AppFooter(v-if="$route.name != 'Error'")
 </template>
 
 <script>
