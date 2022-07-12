@@ -16,7 +16,7 @@
     Headline(centered-title, text-key-title="home.title", text-key-text="home.slug")
 
     #img-card-container
-      ImageCard(v-for="card in imgCards", :key="card.id", :card="card", @click="$router.push({ name: card.routeName })")
+      ImageCard(v-for="card in imgCards", :key="card.id", :card="card", @click="$router.push('/' + card.route)")
 </template>
 
 <script>
@@ -38,31 +38,31 @@ export default {
         id: "food",
         classes: [],
         titleKey: "food",
-        routeName: "menu",
+        route: "menu",
       },
       {
         id: "drinks",
         classes: [],
         titleKey: "drinks",
-        routeName: "drinks",
+        route: "drinks",
       },
       {
         id: "events",
         classes: [],
         titleKey: "events",
-        routeName: "events",
+        route: "events",
       },
       {
         id: "reserve",
         classes: [],
         titleKey: "reserve",
-        routeName: "reserve",
+        route: "reserve",
       },
       {
         id: "contact",
         classes: [],
         titleKey: "contact",
-        routeName: "contact",
+        route: "contact",
       },
     ],
   }),

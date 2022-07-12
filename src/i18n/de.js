@@ -17,6 +17,10 @@ export default {
     title: "Speisekarte",
     slug: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
+  drinks: {
+    title: "Getränkekarte",
+    slug: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
   footer: {
     openingHoursTitle: "Öffnungszeiten",
     openingHoursText:
