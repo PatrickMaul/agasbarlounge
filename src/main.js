@@ -5,6 +5,7 @@ import App from "./App.vue";
 import router from "./router";
 
 import "./assets/scss/style.scss";
+import "bootstrap";
 
 import { createI18n } from "vue-i18n";
 import de_i18n from "./i18n/de";

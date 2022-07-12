@@ -2,7 +2,7 @@
 .app
   AppBar
 
-  main.container
+  main
     router-view
 
   AppFooter

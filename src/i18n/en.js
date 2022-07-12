@@ -1,7 +1,17 @@
 export default {
   home: {
-    main_title: "Welcome to Aga's",
-    slug: "At Aga's we invite you to experience an unforgettable evening full of culinary and musical highlights that you will never forget.",
+    header: {
+      subtitle: "Bar and Lounge",
+    },
+    cards: {
+      food: "Menu",
+      drinks: "Drinks",
+      events: "Events & Specials",
+      reserve: "Reserve a table",
+      contact: "Requests",
+    },
+    title: "Welcome to Aga's",
+    slug: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   footer: {
     openingHoursTitle: "Opening hours",

@@ -10,6 +10,12 @@
   @include typo_base()
 }
 
+.headline {
+  font-size: 64px;
+  margin: 0.5em 0 0.3em 0;
+  letter-spacing: 0.3pt;
+}
+
 .title {
   font-size: 28px;
   margin: 0.5em 0 0.3em 0;

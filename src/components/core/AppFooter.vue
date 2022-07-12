@@ -11,29 +11,11 @@ footer.border-top.bg-light
     .address
       h3.subtitle.underlined(v-html="$t('footer.addressTitle')")
       p.body(v-html="$t('footer.addressText')")
-    .google-map
-      iframe(
-        width="600",
-        height="450",
-        style="border: 0",
-        loading="lazy",
-        allowfullscreen,
-        referrerpolicy="no-referrer-when-downgrade",
-        src="https://www.google.com/maps/embed/v1/place?key=API_KEY&q=AGA's+Barlounge"
-      )
 </template>
 
 <script>
-// import { Loader } from "@googlemaps/js-api-loader";
-
 export default {
   name: " AppFooter",
-  methods: {
-    //
-  },
-  // mounted() {
-  //   this.initMap();
-  // },
 };
 </script>
 
