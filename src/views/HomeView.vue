@@ -38,13 +38,13 @@ export default {
         id: "food",
         classes: [],
         titleKey: "food",
-        route: "menu",
+        route: "menu/food",
       },
       {
         id: "drinks",
         classes: [],
         titleKey: "drinks",
-        route: "drinks",
+        route: "menu/drinks",
       },
       {
         id: "events",

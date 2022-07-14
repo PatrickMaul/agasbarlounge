@@ -16,14 +16,18 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import("../views/MenuView.vue"),
-    },
-    {
-      path: "/drinks",
-      name: "drinks",
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import("../views/DrinksView.vue"),
+      children: [
+        {
+          path: "food",
+          name: "food",
+          component: () => import("../views/sub-views/FoodMenu.vue"),
+        },
+        {
+          path: "drinks",
+          name: "drinks",
+          component: () => import("../views/sub-views/DrinksMenu.vue"),
+        },
+      ],
     },
     {
       path: "/:pathMatch(.*)*",

@@ -1,6 +1,6 @@
 <template lang="pug">
 .menu
-  Headline(centered-title, centered-text, text-key-title="menu.title", text-key-text="menu.slug")
+  router-view
 </template>
 
 <script>
