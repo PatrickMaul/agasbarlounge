@@ -1,6 +1,6 @@
 <template lang="pug">
 .food-menu
-  Headline(centered-title, centered-text, text-key-title="menu.title", text-key-text="menu.slug")
+  Headline(centered-title, centered-text, text-key-title="menu.food.title", text-key-text="menu.food.slug")
 
   .vstack.gap-3
     img.img-fluid(src="/img/menu_food_1.png")
