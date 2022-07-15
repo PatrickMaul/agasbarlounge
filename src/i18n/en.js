@@ -26,6 +26,20 @@ export default {
   events: {
     title: "Events",
     slug: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    eventList: {
+      karaoke: {
+        title: "Karaoke",
+        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      },
+      liveMusic: {
+        title: "Live music",
+        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      },
+      rent: {
+        title: "Rent our location",
+        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      },
+    },
   },
   footer: {
     openingHoursTitle: "Opening hours",
